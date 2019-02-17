@@ -14,23 +14,26 @@ namespace rtr.console
     {
         public List<Book> Books { get; set; }
         public int Year { get; set; }
+        public int Goal { get; set; }
     }
     
     class Program
     {
         static void Main(string[] args)
         {
-            ReadingChallenge challenge2018 = new ReadingChallenge();
+            ReadingChallenge challenge = new ReadingChallenge();
 
-            challenge2018.Year = 2019;
+            challenge.Year = 2019;
+            challenge.Goal = 24;
 
-            challenge2018.Books = new List<Book>(){
-                new Book { Title = "Killing Commendatore", Author="Haruki Murakami", Pages=927 },
-                new Book { Title = "", Author="", Pages = 0}
+            challenge.Books = new List<Book>(){
+                new Book { Title = "Killing Commendatore", Author = "Haruki Murakami", Pages = 927 },
+                new Book { Title = "Fall, or Dodge in Hell", Author = "Neal Stephenson", Pages = 720 },
+                new Book { Title = "White Shadow", Author = "Roy Jacobsen", Pages = 272 }
             };
 
-
-            Console.WriteLine($"You have {challenge2018.Books.Count} books in your reading list for year {challenge2018.Year}");
+            Console.WriteLine($"You have commited to read {challenge.Goal} books in {challenge.Year}");
+            Console.WriteLine($"You have {challenge.Books.Count} books in your reading list for year {challenge.Year}");
         }
     }
 }
