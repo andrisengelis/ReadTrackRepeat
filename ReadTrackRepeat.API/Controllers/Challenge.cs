@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ReadTrackRepeat.Data;
 
 namespace ReadTrackRepeat.API.Controllers
 {
@@ -9,7 +10,7 @@ namespace ReadTrackRepeat.API.Controllers
     [HttpGet]
     public Challenge Get()
     {
-      return new Challenge(2019);
+      return new Challenge();
     }
   }
 }
