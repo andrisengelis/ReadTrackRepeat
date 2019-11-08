@@ -6,8 +6,16 @@ namespace ReadTrackRepeat.Tests
   public class RtrApiTests
   {
     [TestMethod]
-    public void TestMethod1()
+    public void ChallengeExists()
     {
+      // Arrange
+
+
+      // Act 
+      var actual = new Challenge();
+
+      // Assert
+      Assert.IsInstanceOfType(actual, typeof(Challenge));
     }
   }
 }
