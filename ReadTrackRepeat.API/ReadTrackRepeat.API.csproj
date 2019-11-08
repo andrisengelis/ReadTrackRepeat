@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ReadTrackRepeat.Data\ReadTrackRepeat.Data.csproj" />
   </ItemGroup>
 
 </Project>

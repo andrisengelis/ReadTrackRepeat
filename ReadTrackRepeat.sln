@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTrackRepeat.API", "ReadTrackRepeat.API\ReadTrackRepeat.API.csproj", "{58003B1F-083D-4F25-A1FD-2575B078F28E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTrackRepeat.Tests", "ReadTrackRepeat.Tests\ReadTrackRepeat.Tests.csproj", "{47B7486D-3C06-4046-AC48-DD14D103610F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTrackRepeat.Data", "ReadTrackRepeat.Data\ReadTrackRepeat.Data.csproj", "{4924804D-815A-4A7F-8282-EE3E7AC4504F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{58003B1F-083D-4F25-A1FD-2575B078F28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58003B1F-083D-4F25-A1FD-2575B078F28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58003B1F-083D-4F25-A1FD-2575B078F28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B7486D-3C06-4046-AC48-DD14D103610F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B7486D-3C06-4046-AC48-DD14D103610F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B7486D-3C06-4046-AC48-DD14D103610F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B7486D-3C06-4046-AC48-DD14D103610F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4924804D-815A-4A7F-8282-EE3E7AC4504F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4924804D-815A-4A7F-8282-EE3E7AC4504F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4924804D-815A-4A7F-8282-EE3E7AC4504F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4924804D-815A-4A7F-8282-EE3E7AC4504F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
